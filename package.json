@@ -1,7 +1,7 @@
 {
-  "name": "angular-starter",
-  "version": "7.0.0",
-  "description": "An Angular Webpack Starter kit featuring Angular (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
+  "name": "user-interface-angular2",
+  "version": "0.1.0",
+  "description": "Angular2 User Interface.",
   "keywords": [
     "angular",
     "angular2",
@@ -12,8 +12,8 @@
     "tipe",
     "tipe.io"
   ],
-  "author": "Patrick Stapleton <patrick@tipe.io>",
-  "homepage": "https://github.com/gdi2290/angular-starter",
+  "author": "Sam Zielke-Ryner <samzielkeryner@gmail.com>",
+  "homepage": "https://github.com/sazr/angular-starter",
   "license": "MIT",
   "scripts": {
     "build:aot:prod": "npm run clean:dist && npm run clean:aot && cross-env BUILD_AOT=1 npm run webpack -- --config config/webpack.prod.js  --progress --profile --bail",
@@ -83,10 +83,12 @@
   },
   "dependencies": {
     "@angular/animations": "~5.1.0",
+    "@angular/cdk": "^5.1.0",
     "@angular/common": "~5.1.0",
     "@angular/compiler": "~5.1.0",
     "@angular/core": "~5.1.0",
     "@angular/forms": "~5.1.0",
+    "@angular/material": "^5.1.0",
     "@angular/platform-browser": "~5.1.0",
     "@angular/platform-browser-dynamic": "~5.1.0",
     "@angular/platform-server": "~5.1.0",
@@ -167,10 +169,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gdi2290/angular-starter.git"
+    "url": "https://github.com/sazr/angular-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/gdi2290/angular-starter/issues"
+    "url": "https://github.com/sazr/angular-starter/issues"
   },
   "engines": {
     "node": ">= 4.2.1",
