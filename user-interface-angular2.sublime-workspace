@@ -276,11 +276,11 @@
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": "src/app/app.module.ts",
 			"settings":
 			{
-				"buffer_size": 7630,
-				"line_ending": "Unix"
+				"buffer_size": 2403,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -314,8 +314,24 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/admin/Desktop/user-interface-angular2",
+		"/C/Users/admin/Desktop/user-interface-angular2/src",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/app"
+	],
 	"file_history":
 	[
+		"/C/Users/admin/Desktop/user-interface-angular2/README.md",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/app/home/home.component.html",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/app/app.module.ts",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/styles/styles.scss",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/main.browser.ts",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/index.html",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/app/app.service.ts",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/app/app.routes.ts",
+		"/C/Users/admin/Desktop/user-interface-angular2/src/app/app.resolver.ts",
+		"/C/Users/admin/Desktop/user-interface-angular2/package.json",
 		"/D/_Work/Soribo/_TESTS/vd/src/src/js/row-widget.js",
 		"/D/_Work/Soribo/_TESTS/vd/src/src/js/frameworks/bootstrap-twitter-framework.js",
 		"/D/_Work/Soribo/_TESTS/vd/src/src/js/base-framework.js",
@@ -433,27 +449,19 @@
 		"/D/_Work/Soribo/_TESTS/vd/src/node_modules/jshash-2.2/sha256.js",
 		"/D/_Work/Soribo/_TESTS/vd/src/spike/menu-2.0.html",
 		"/D/_Work/Soribo/_TESTS/vd/src/spike/standardBootstrap.html",
-		"/D/_Work/Soribo/_TESTS/vd/src/spike/changeWidgetNodeValue.html",
-		"/D/_Work/Soribo/_TESTS/vd/src/spike/editor.html",
-		"/D/_Work/Soribo/_TESTS/vd/src/src/less/section-widget.less",
-		"/D/_Work/Soribo/_TESTS/vd/src/dist/css/visual-designer.min.css",
-		"/D/_Work/Soribo/_TESTS/vd/src/src/js/inputs/vd-border-input-widget.js",
-		"/D/_Work/Soribo/_TESTS/vd/src/src/js/inputs/input-widget.js",
-		"/D/_Work/Soribo/_TESTS/vd/src/spike/webIcons.html",
-		"/D/_Work/Soribo/_TESTS/vd/src/src/js/utils/undo-widget.js",
-		"/D/_Work/Soribo/_TESTS/vd/src/src/less/widget-tag.less",
-		"/D/_Work/Soribo/_TESTS/vd/src/dist/css/visual-designer-release.min.css",
-		"/D/_Work/Soribo/_TESTS/vd/src/src/less/vd-btn-widget.less"
+		"/D/_Work/Soribo/_TESTS/vd/src/spike/changeWidgetNodeValue.html"
 	],
 	"find":
 	{
-		"height": 47.0
+		"height": 80.0
 	},
 	"find_in_files":
 	{
 		"height": 220.0,
 		"where_history":
 		[
+			"C:\\Users\\admin\\Desktop\\user-interface-angular2",
+			"C:\\Users\\admin\\Desktop\\user-interface-angular2\\src",
 			"D:\\_Work\\Soribo\\_TESTS\\vd\\src\\src\\js",
 			"D:\\_Work\\Soribo\\_TESTS\\vd\\src\\src",
 			"D:\\_Work\\Soribo\\_TESTS\\vd\\src\\src\\js",
@@ -520,6 +528,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"System.config",
+			"NgModule",
 			"toList",
 			"ifr",
 			"widgetTypes",
@@ -645,9 +655,7 @@
 			"token(",
 			"getNStr()",
 			"show",
-			"slideInFromBottom",
-			"vd-",
-			"aspect"
+			"slideInFromBottom"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -798,24 +806,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "src/app/app.module.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7630,
+						"buffer_size": 2403,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								645,
+								645
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -912,7 +922,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 453.0,
+	"side_bar_width": 562.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

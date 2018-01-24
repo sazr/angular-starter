@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';  // include material cmps here
 
 /*
  * Platform and Environment providers/directives/pipes
@@ -53,6 +54,8 @@ type StoreType = {
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatButtonModule, 
+    MatCheckboxModule,
     FormsModule,
     HttpClientModule,
     RouterModule.forRoot(ROUTES, {

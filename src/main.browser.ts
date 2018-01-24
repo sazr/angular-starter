@@ -4,6 +4,8 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { environment } from 'environments/environment';
 
+import 'hammerjs'; // required by Material cmp's for gesture support
+
 /**
  * App Module
  * our top level module that holds all of our components
