@@ -1,7 +1,7 @@
 {
   "name": "user-interface-angular2",
   "version": "0.1.0",
-  "description": "Angular2 User Interface.",
+  "description": "Angular2 User Interface",
   "keywords": [
     "angular",
     "angular2",
@@ -82,7 +82,7 @@
     "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
   },
   "dependencies": {
-    "@angular/animations": "~5.1.0",
+    "@angular/animations": "^5.1.3",
     "@angular/cdk": "^5.1.0",
     "@angular/common": "~5.1.0",
     "@angular/compiler": "~5.1.0",
